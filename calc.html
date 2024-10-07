@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <title>Calulation</title>
+    </head>
+    <body>
+        <p class="ans"></p>
+        <button  onclick="console.log(cal+='1');document.querySelector('.ans').innerHTML = cal;">1</button>
+        <button  onclick="console.log(cal+='2');document.querySelector('.ans').innerHTML = cal;">2</button>
+        <button  onclick="console.log(cal+='3');document.querySelector('.ans').innerHTML = cal;">3</button>
+        <button onclick="console.log(cal+=' + ');document.querySelector('.ans').innerHTML = cal;">+</button>
+        <p>
+        <button  onclick="console.log(cal+='4');document.querySelector('.ans').innerHTML = cal;">4</button>
+        <button  onclick="console.log(cal+='5');document.querySelector('.ans').innerHTML = cal;">5</button>
+        <button  onclick="console.log(cal+='6');document.querySelector('.ans').innerHTML = cal;">6</button>
+        <button onclick="console.log(cal+=' - ');document.querySelector('.ans').innerHTML = cal;">-</button>
+        </p>
+        <p>
+            <button  onclick="console.log(cal+='7');document.querySelector('.ans').innerHTML = cal;">7</button>
+            <button  onclick="console.log(cal+='8');document.querySelector('.ans').innerHTML = cal;">8</button>
+            <button  onclick="console.log(cal+='9');document.querySelector('.ans').innerHTML = cal;">9</button>
+            <button onclick="console.log(cal+=' * ');document.querySelector('.ans').innerHTML = cal;">X</button>
+        </p>
+        <p>
+            <button  onclick="console.log(cal+='0');document.querySelector('.ans').innerHTML = cal;">0</button>
+            <button onclick="console.log(cal+='.');document.querySelector('.ans').innerHTML = cal;">.</button>
+            <button onclick="console.log(cal='');document.querySelector('.ans').innerHTML = cal;">C</button>
+            <button onclick="console.log(cal+=' / '); document.querySelector('.ans').innerHTML = cal;">/</button>
+
+        </p>
+        <button onclick="console.log(eval(cal));document.querySelector('.ans').innerHTML =eval(cal);">=</button>
+        
+        <script>
+            let cal='';
+           
+
+        </script>
+    </body>
+</hmtl>
